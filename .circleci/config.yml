@@ -14,6 +14,15 @@ jobs:
           - v1-dependencies-.
           # fallback to using the latest cache if no exact match is found
           - v1-dependencies-
+          dependencies:
+  pre:
+    - gem install package_cloud
+
+  deployment:
+  production:
+    branch: master
+    commands:
+      - package_cloud push dslzuha/MyRepo/os/version /path/to/pkg.ext
 
       - run: npm install
       - run:
