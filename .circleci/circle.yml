@@ -2,7 +2,7 @@
 Notify:|
 webhooks:
  # A list of hook, hashes, containing the URL field
- - url: https://outlook.office.com/webhook/34cc2969-75ea-49d4-b02c-e429eb48f5c1@c6ddc50e-b1a6-44ed-a03a-d5c6069e4045/CircleCI/f03713f2125746b3a2dd25cf7e4e3eaa/dc247769-0d94-45df-8354-acd4b7144c8d
+ - url: https://outlook.office.com/webhook/34cc2969-75ea-49d4-b02c-e429eb48f5c1@c6ddc50e-b1a6-44ed-a03a-d5c6069e4045/CircleCI/8dd9705b02254b2fa400637f13481cff/dc247769-0d94-45df-8354-acd4b7144c8d
  
 dependencies:
   pre:
