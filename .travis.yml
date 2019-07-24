@@ -1,0 +1,7 @@
+language: ruby
+cache: bundler
+before_install:
+  - gem install package_cloud
+
+script:
+    - package_cloud push dslzuha/MyRepo/os/version /path/to/package.ext
