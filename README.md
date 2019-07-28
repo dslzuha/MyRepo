@@ -1,8 +1,29 @@
-# README for dslzuha/MyRepo
-# hello world
+# Packagecloud::Test::Gem
 
-*editor supports markdown*
+TODO: Write a gem description
 
-I love :coffee:
+## Installation
 
- Here is using packagecloud-test-gem-0.0.1.gem
+Add this line to your application's Gemfile:
+
+    gem 'packagecloud-test-gem'
+
+And then execute:
+
+    $ bundle
+
+Or install it yourself as:
+
+    $ gem install packagecloud-test-gem
+
+## Usage
+
+TODO: Write usage instructions here
+
+## Contributing
+
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
