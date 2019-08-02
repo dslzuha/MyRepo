@@ -1,0 +1,37 @@
+version: 1.0.{build}
+
+max_jobs: 10
+
+environment:
+
+  PACKAGECLOUD_TOKEN: 97b946f126b2d248ceb6f9aa1bca29e13b606121fa3cac89
+
+build:
+
+  publish_wap: true
+
+  publish_nuget: true
+
+  publish_nuget_symbols: true
+
+  use_snupkg_format: true
+
+  include_nuget_references: true
+
+  publish_aspnet_core: true
+
+  publish_core_console: true
+
+  parallel: true
+
+  verbosity: minimal
+
+deploy:
+
+- provider: NuGet
+
+  server: https://ci.appveyor.com/nuget/dslzuha-qw362clck9t2
+
+  api_key:
+
+    secure: chHTu/CpytQw0Nf75jsPY8xAUZKDrZjd7G4LwbVS5oY=
