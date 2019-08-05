@@ -1,8 +1,10 @@
-@@ -1,4 +1,7 @@
 # Gemfile
 
-source 'https://rubygems.org'
-source "https://packagecloud.io/dslzuha/MyRepo"
+# Note: It's recommended you add the official https://rubygems.org source, unless your
+#       packagecloud repository can meet all of the dependency requirements in the Gemfile.
 
-# Specify your gem's dependencies in packagecloud-test-gem.gemspec
-gemspec
+source "https://rubygems.org"
+source "https://packagecloud.io/dslzuha/MyRepo" do
+  gem "my-gem"
+  gem "another-gem"
+end
