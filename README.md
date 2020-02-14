@@ -1,3 +1,5 @@
+![CI](https://github.com/dslzuha/MyRepo/workflows/CI/badge.svg)
+
 # Packagecloud::Test::Gem
 
 TODO: Write a gem description
