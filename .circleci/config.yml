@@ -17,8 +17,7 @@ jobs:
           - v1-dependencies-.
           # fallback to using the latest cache if no exact match is found
           - v1-dependencies-
-          dependencies:
-  
+
       - run: npm install
       - run:
           name: Run tests
