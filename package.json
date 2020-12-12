@@ -1,0 +1,26 @@
+{
+  "name": "MyRepo",
+  "version": "0.0.1",
+  "description": "![CI](https://github.com/dslzuha/MyRepo/workflows/CI/badge.svg)",
+  "main": "wiki.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dslzuha/MyRepo.git"
+  },
+  "keywords": [],
+  "author": "Dsl BD <zuha@dslbd.onmicrosoft.com> (https://dslzuha.github.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dslzuha/MyRepo/issues"
+  },
+  "homepage": "https://github.com/dslzuha/MyRepo#readme",
+  "dependencies": {
+    "package-lock.json": "^1.0.0"
+  }
+}
