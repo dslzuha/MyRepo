@@ -1,0 +1,27 @@
+{
+  "name": "@dslzuha/my-test-package",
+  "version": "1.0.0",
+  "description": "This is my-test-package that uses the @dslzuha/my-test-package",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dslzuha/MyRepo.git"
+  },
+  "keywords": [
+    "packagecloug",
+    "npm",
+    "package"
+  ],
+  "author": "Dsl BD <zuha@dslbd.onmicrosoft.com> (https://dslzuha.github.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dslzuha/MyRepo/issues"
+  },
+  "homepage": "https://github.com/dslzuha/MyRepo#readme",
+  "dependencies": {
+    "my-test-package": "^1.0.0"
+  }
+}
