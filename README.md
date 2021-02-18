@@ -1,6 +1,8 @@
 ![CI](https://github.com/dslzuha/MyRepo/workflows/CI/badge.svg)
 
 # Packagecloud::Test::Gem
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fdslzuha%2FMyRepo.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fdslzuha%2FMyRepo?ref=badge_shield)
+
 
 TODO: Write a gem description
 
@@ -29,3 +31,7 @@ TODO: Write usage instructions here
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fdslzuha%2FMyRepo.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fdslzuha%2FMyRepo?ref=badge_large)
